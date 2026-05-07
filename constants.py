@@ -1,5 +1,5 @@
-SCREEN_WIDTH = 1280
-SCREEN_HEIGHT = 720
+SCREEN_WIDTH = 1600
+SCREEN_HEIGHT = 900
 PLAYER_RADIUS = 20 
 LINE_WIDTH = 2 
 
@@ -13,3 +13,6 @@ ASTEROID_MIN_RADIUS = 20
 ASTEROID_KINDS = 3
 ASTEROID_SPAWN_RATE_SECONDS = 0.8
 ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
+
+STAGE_SIZE = 500 #The amount of points need to pass to the next stage
+STAGE_ASTEROID_SPEED_MULTIPLIER = 0.2 #The speed multiplier. At 0.1, the speed doubles every 10 stages. With 0.5, it doubles every 2 stages.
